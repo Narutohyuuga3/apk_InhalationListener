@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inhalation"
+    android:padding="6dp"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_marginLeft="30dp"
+     android:layout_marginRight="30dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_Record_ID"
+        android:text="@string/Button_record_Text"
+        android:textSize="18sp"
+        android:enabled="false"
+        android:onClick="Record_On_Click"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_Pause_ID"
+        android:text="@string/Button_Pause_Text"
+        android:textSize="18sp"
+        android:enabled="false"
+        android:onClick="Record_Pause_Click"/>
+ </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drücken Sie vor der Inhalation Start"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warten Sie 3 Sekunden"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ausatmen dann Tief inhalieren"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atem 10 Sek halten, wieder ausatmen"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drücken Sie nach der Inhalation Stopp"
+        android:layout_gravity="center"
+        android:textSize="18sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewTask_Inhalation"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp" ></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

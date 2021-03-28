@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "224662449030",
+    "firebase_url": "https://inhalationlistenerdatabank.firebaseio.com",
+    "project_id": "inhalationlistenerdatabank",
+    "storage_bucket": "inhalationlistenerdatabank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224662449030:android:828eefbe00418787",
+        "android_client_info": {
+          "package_name": "com.example.flopfl.inhalationlistener"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224662449030-gj5tiaom6tdrjqr7j0gqc7e5a2m7oa43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD48kD87mJEO5DsCaxD3uEaaG60CNwBD7w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

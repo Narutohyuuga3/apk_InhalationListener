@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">InhalationListener</string>
+    <!--Main -->
+    <string name="Button_Inhalation_Text">Inhalieren</string>
+    <string name="Button_Medikamente_Text">Medikamente</string>
+    <string name="Button_Text_Search_BT">aktualisieren</string>
+    <string name="TextView_DefaultText_Search_BT">nicht verbunden</string>
+    <string name="Notification_Channel_Name">Medic_not_name</string>
+    <string name="Notification_Channel_Desc">Medic_not_desc</string>
+    <string name="Medikamente_Extra_Key">key_meds</string>
+    <string name="Medikamente_Extra_txt">txt_med</string>
+    <string name="Job_Notification_key">Name_Key</string>
+    <string name="Job_Notifi_Tag_Key">NotifiyTagKey</string>
+
+    <!--Inhalation-->
+    <string name="Button_record_Text">Start</string>
+    <string name="Button_Pause_Text">Stopp</string>
+
+
+</resources>

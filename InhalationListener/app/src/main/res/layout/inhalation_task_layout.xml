@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    android:background="@color/colorPrimaryLight"
+    android:layout_marginBottom="4dp"
+    android:id="@+id/Background_Inhalation_Layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/Inhalation_Task_Uhrzeit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uhrzeit"
+                android:layout_marginRight="5dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/Inhalation_Task_Akku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textSize="18sp"/>
+            </LinearLayout>
+    <ProgressBar
+        android:id="@+id/Inhalation_Task_ProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:id="@+id/Inhalation_Task_Schuetteln_static"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vorher schütteln:"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/Inhalation_Task_Schuetteln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="--"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:id="@+id/Inhalation_Task_Exhalation_static"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vor Inhalation ausatmen:"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/Inhalation_Task_Exhalation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="--"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:id="@+id/Inhalation_Task_Inhalation_static"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="langsam tief inhalieren:"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/Inhalation_Task_Inhalation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="--"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+            <TextView
+                android:id="@+id/Inhalation_Task_Innehalten_static"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Sekunden Luft anhalten:"
+                android:textSize="22sp"/>
+            <TextView
+                android:id="@+id/Inhalation_Task_Innehalten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="--"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
